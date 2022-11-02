@@ -13,9 +13,6 @@ const FeedbackStats = () => {
 
   average = average.toFixed(1).replace(/[.,]0$/, '');
 
-  if (feedbackList.length === 0) {
-    return <h1 className="no-reviews">no reviews</h1>;
-  }
   return (
     <div className="feedback-stats">
       <h3>
